@@ -21,6 +21,7 @@ public class MyDeque<T> implements Iterable<T> {
             if (arrT[i] != null) {
                 output = false;
                 break;
+                System.out.println();
             }
         }
         return output;
